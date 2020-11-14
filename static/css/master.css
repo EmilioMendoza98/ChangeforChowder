@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header > h1{
+  font-family: "Noto Sans", sans-serif;
+  color: #242124;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 31%;
+  left: 10%;
+  font-size: 3.5rem;
+  transform: translate(0%, -50%);
+
+
+}
+header > h3{
+  font-family: "Noto Sans", sans-serif;
+  color: #242124;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 36%;
+  left: 11%;
+  font-size: 1.4rem;
+  transform: translate(0%, -50%);
+
+
+}
+
+
+.directoryButton{
+  background-color: #800000; /* red */
+  border: none;
+  color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.headers{
+  font-family: "Noto Sans", sans-serif;
+  color: #242124;
+}
+
+.Directory{
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  color: #242124;
+  padding: 30px;
+  font-size: 3rem;
+}
+.underlined{
+    text-decoration: underline;
+}
+
+#bannerimage {
+  background-repeat:no-repeat;
+  width: 100%;
+  background-image: url("../Photos/banner4.jpg");
+  height: 1045px;
+  background-position: top;
+  text-align: center;
+}
