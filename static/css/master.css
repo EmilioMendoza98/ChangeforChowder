@@ -7,7 +7,13 @@
   box-sizing: border-box;
 }
 
-header > h1{
+.aboutpara{
+    font-family: "Open Sans", sans-serif;
+    color: #bababa;
+    text-align: center;
+}
+
+.specialh1{
   font-family: "Noto Sans", sans-serif;
   color: #242124;
   text-transform: uppercase;
@@ -20,7 +26,7 @@ header > h1{
 
 
 }
-header > h3{
+.specialh3{
   font-family: "Noto Sans", sans-serif;
   color: #242124;
   text-transform: uppercase;
@@ -34,6 +40,15 @@ header > h3{
 
 }
 
+.regularh1{
+  font-family: "Noto Sans", sans-serif;
+  color: #242124;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 50px;
+}
 
 .directoryButton{
   font-family: "Open Sans", sans-serif;
