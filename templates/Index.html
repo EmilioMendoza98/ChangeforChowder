@@ -13,9 +13,9 @@
 
     <h1 class="Directory">Directory</h1>
     <div style="text-align: center;">
-      <button type="button" class="directoryButton" name="button">About Us</button>
-      <button type="button" class="directoryButton" name="button"> Donate </button>
-
+      <a class="directoryButton"href="{{ url_for('aboutUs')}}">About Us</a>
+      <a class="directoryButton"href="{{ url_for('donate')}}">Donate</a>
+      <a class="directoryButton"href="{{ url_for('photoGallery')}}">Photo Gallery</a>
     </div>
 
     <p style="padding: 80px;"></p>
